@@ -29,7 +29,7 @@ const Navbar = () => {
             </ul>
             <div className="flex items-center gap-6">
                 <img src={assets.search_icon} className='w-5 cursor-pointer' alt="" onClick={()=>{ setshowsearch(!showsearch);  setsearch("");}} />
-                <div className="group relative">
+                {/* <div className="group relative">
                     <Link to={'/login'}><img src={assets.profile_icon} className='w-5 cursor-pointer' alt="" /></Link>
                     <div className="group-hover:block hidden absolute dropdown-menu right-0 pt-4">
                         <div className="flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100  text-gray-500 rounded">
@@ -38,7 +38,7 @@ const Navbar = () => {
                             <p className='cursor-pointer hover:text-black'>Logout</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <Link to={'/cart'} className="relative" >
                     <img src={assets.cart_icon} alt="" className='w-5 cursor-pointer' />
                     <p className='absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4  

@@ -16,9 +16,10 @@ const App = () => {
   useEffect(()=>{localStorage.setItem('token',token)},[token])
   return (
     <div className='bg-gray-50 min-h-screen'>
+      <ToastContainer></ToastContainer>
             {token === "" ? <Login settoken={settoken}></Login> :
       <>
-      <Navbar></Navbar>
+      <Navbar settoken={settoken} ></Navbar>
       <hr />
       <div className="flex w-full">
           <Sidebar></Sidebar>
@@ -32,7 +33,6 @@ const App = () => {
       </div>
       </>
       }
-      <ToastContainer />
     </div>
   )
 }

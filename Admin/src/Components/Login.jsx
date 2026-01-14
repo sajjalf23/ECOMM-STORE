@@ -15,9 +15,8 @@ const Login = ({settoken}) => {
       if(response.data.success){
         settoken(response.data.token);
       }
-      console.log(response);
     } catch (err) {
-      toast.error(response.data.message);
+      toast.error(err.message);
     }
   }
   return (
