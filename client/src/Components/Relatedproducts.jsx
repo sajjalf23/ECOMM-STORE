@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { ShopContext } from "../Context/ShopContext";
-import ProductItem from "./ProductItem.jsx";  // Changed this line
+import ProductItem from "./Productitem.jsx";  // Changed this line
 import Title from "./Title.jsx";               // Changed this line
 
 const RelatedProducts = ({ category, subCategory }) => {
