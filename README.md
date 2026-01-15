@@ -65,7 +65,6 @@ This project is being developed as a learning and portfolio project with plans t
 
 ## 🛠️ Tech Stack
 
-> *(Update if needed)*
 
 - HTML  
 - CSS  
