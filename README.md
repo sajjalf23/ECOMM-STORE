@@ -69,8 +69,8 @@ This project is being developed as a learning and portfolio project with plans t
 - HTML  
 - CSS  
 - JavaScript  
-- Bootstrap / Tailwind *(if used)*  
-- React / Vanilla JS *(whichever you used)*  
+- Tailwind  
+- React 
 
 ---
 
